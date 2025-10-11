@@ -14,6 +14,22 @@ const NavContainer = styled(motion.nav)`
   backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
+
+  @media (max-width: 1024px) {
+    padding: 0.8rem 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.6rem 1rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.5rem 0.8rem;
+  }
+
+  @media (max-width: 320px) {
+    padding: 0.4rem 0.5rem;
+  }
 `;
 
 const NavContent = styled.div`
@@ -33,6 +49,22 @@ const Logo = styled(motion.div)`
   background-clip: text;
   font-family: 'Space Grotesk', sans-serif;
   cursor: pointer;
+
+  @media (max-width: 1024px) {
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 1rem;
+  }
 `;
 
 const NavLinks = styled(motion.div)`
@@ -106,6 +138,16 @@ const MobileMenu = styled(motion.div)`
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   padding: 2rem;
   z-index: 1001;
+
+  @media (max-width: 480px) {
+    width: 280px;
+    padding: 1.5rem;
+  }
+
+  @media (max-width: 320px) {
+    width: 260px;
+    padding: 1rem;
+  }
 `;
 
 const MobileMenuHeader = styled.div`

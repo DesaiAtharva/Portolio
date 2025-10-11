@@ -22,16 +22,19 @@ const HeroContainer = styled.section`
   @media (max-width: 768px) {
     padding: 0 1rem;
     min-height: 90vh;
+    padding-top: 80px;
   }
 
   @media (max-width: 480px) {
     padding: 0 0.8rem;
     min-height: 85vh;
+    padding-top: 70px;
   }
 
   @media (max-width: 320px) {
     padding: 0 0.5rem;
     min-height: 80vh;
+    padding-top: 60px;
   }
 `;
 
@@ -54,15 +57,18 @@ const HeroContent = styled.div`
     text-align: center;
     gap: 2rem;
     max-width: 600px;
+    margin-top: 1rem;
   }
 
   @media (max-width: 480px) {
     gap: 1.5rem;
     max-width: 100%;
+    margin-top: 0.5rem;
   }
 
   @media (max-width: 320px) {
     gap: 1rem;
+    margin-top: 0.5rem;
   }
 `;
 
