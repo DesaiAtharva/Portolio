@@ -463,14 +463,13 @@ const Hero = () => {
             
             <Title variants={itemVariants}>
               <AnimatedTitle>
-                Fullstack Developer
+                Full Stack + AI Engineer
               </AnimatedTitle>
             </Title>
             
             <Description variants={itemVariants}>
-              Results-driven Fullstack Developer with strong expertise in React.js, JavaScript (ES6+), 
-              Django, and modern web development practices. Passionate about creating scalable, maintainable 
-              applications with a focus on performance optimization and clean architecture.
+              Building systems that think, scale, and ship. I design and build production-grade AI systems, 
+              RAG pipelines, LLM interfaces, robust FastAPI/Django backends, and responsive React/Next.js frontends.
             </Description>
             
             <ButtonGroup variants={itemVariants}>

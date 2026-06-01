@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment, Stars } from '@react-three/drei';
-import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
 // Components

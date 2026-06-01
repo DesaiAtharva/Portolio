@@ -572,7 +572,7 @@ Sent from Atharva Desai's Portfolio Website`;
           </SectionSubtitle>
           
           <Description variants={itemVariants}>
-            I'm always excited to work on new fullstack projects and collaborate with amazing people. 
+            I'm always excited to work on new Full Stack + AI systems and collaborate with amazing people. 
             Whether you have a question, want to work together, or just want to say hi, 
             I'd love to hear from you!
           </Description>

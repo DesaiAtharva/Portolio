@@ -273,7 +273,7 @@ const Skills = () => {
 
   const stats = [
     { icon: FaCode, number: '10+', label: 'Projects Completed' },
-    { icon: FaRocket, number: '1+', label: 'Years Experience' },
+    { icon: FaRocket, number: '2+', label: 'Years Experience' },
     { icon: FaDatabase, number: '50+', label: 'REST APIs Built' },
     { icon: FaDatabase, number: '1000+', label: 'APIs Integrated' }
   ];

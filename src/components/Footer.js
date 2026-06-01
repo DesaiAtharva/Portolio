@@ -302,9 +302,8 @@ const Footer = () => {
             <FooterSection variants={itemVariants}>
               <FooterTitle>Atharva Desai</FooterTitle>
               <FooterText>
-                Results-driven Fullstack Developer with strong expertise in React.js, 
-                JavaScript, Django, and modern web development practices. Passionate about 
-                creating scalable, maintainable applications.
+                Full Stack + AI Engineer building production-grade AI systems — RAG pipelines, 
+                LLM integrations, FastAPI backends, and React/Next.js frontends.
               </FooterText>
             </FooterSection>
 

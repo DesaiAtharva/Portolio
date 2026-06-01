@@ -271,6 +271,72 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: 'Thane Municipal Corporation ERP Dashboard',
+      description: 'centralized enterprise dashboard system integrating and unifying real-time data pipelines from 47+ municipal departments.',
+      features: [
+        'Designed Agentic AI pipelines to extract and unify unstructured records',
+        'Enabled real-time monitoring dashboard using React.js and Django REST APIs',
+        'Integrated OCR-based paper record digitization and auto-classification',
+        'Developed a WhatsApp AI chatbot for department-specific user insights'
+      ],
+      tech: ['React.js', 'Django', 'REST APIs', 'Agentic AI', 'OCR', 'WhatsApp API'],
+      category: 'fullstack',
+      icon: FaDesktop,
+      stats: { departments: '47+', accuracy: '98%' },
+      github: '#',
+      live: '#'
+    },
+    {
+      id: 2,
+      title: 'Disaster Management & Emergency Response System',
+      description: 'Real-time emergency response platform handling live citizen calls, complaint tracking, and automated routing.',
+      features: [
+        'Integrated Google Speech-to-Text for real-time citizen voice transcription',
+        'Designed automatic severity-based incident routing and escalation systems',
+        'Built central dashboards for end-to-end complaint lifecycle tracking',
+        'Drastically reduced emergency response times via real-time workflows'
+      ],
+      tech: ['React.js', 'Django', 'Speech-to-Text', 'WebSockets', 'Material-UI'],
+      category: 'fullstack',
+      icon: FaRocket,
+      stats: { responseTime: '-35%', tracking: '100%' },
+      github: '#',
+      live: '#'
+    },
+    {
+      id: 3,
+      title: 'Human Resource Management System (HRMS)',
+      description: 'Engineered a full-scale enterprise HRMS platform managing employee lifecycle operations and secure records.',
+      features: [
+        'Architected role-based administrative dashboards using React.js & Material-UI',
+        'Integrated secure JWT-based authentication and REST APIs for access control',
+        'Automated HR workflows, reducing manual administrative workload'
+      ],
+      tech: ['React.js', 'Material-UI', 'JWT', 'REST APIs', 'Django'],
+      category: 'fullstack',
+      icon: FaUsers,
+      stats: { roles: '8+', workflows: 'Auto' },
+      github: '#',
+      live: '#'
+    },
+    {
+      id: 4,
+      title: 'E-Commerce Platform (AccioJob Project)',
+      description: 'Full-featured online retail application equipped with JWT secure session login and complete cart management.',
+      features: [
+        'Completed MERN stack implementation for online retail interfaces',
+        'Developed responsive UI using React.js with optimized state binding',
+        'Engineered dynamic product filtering, sorting, and session layouts'
+      ],
+      tech: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Redux'],
+      category: 'frontend',
+      icon: FaCode,
+      stats: { pages: '12+', loadTime: '<1s' },
+      github: '#',
+      live: '#'
+    },
+    {
+      id: 5,
       title: 'Vetrina Project',
       description: 'Spearheaded frontend development using React.js, Redux, and REST APIs, improving registration efficiency by 20%.',
       features: [
@@ -287,7 +353,7 @@ const Projects = () => {
       live: '#'
     },
     {
-      id: 2,
+      id: 6,
       title: 'Hostel Management System',
       description: 'Led a 5-member Agile team to develop role-based dashboards using React.js and Material-UI.',
       features: [
@@ -304,7 +370,7 @@ const Projects = () => {
       live: '#'
     },
     {
-      id: 3,
+      id: 7,
       title: 'Elephant Tank Innovation Platform',
       description: 'Contributed to an innovation platform supporting 10K+ student registrations and 4K+ submissions.',
       features: [
@@ -321,7 +387,7 @@ const Projects = () => {
       live: '#'
     },
     {
-      id: 4,
+      id: 8,
       title: 'WeightBridge Project',
       description: 'Built automated vehicle weight calculation system integrating weighbridge machines and camera OCR.',
       features: [
@@ -338,7 +404,7 @@ const Projects = () => {
       live: '#'
     },
     {
-      id: 5,
+      id: 9,
       title: 'BlinkCloneXperience',
       description: 'Developed a Blinkit UI/UX clone web application using React.js, focusing on seamless design and responsiveness.',
       features: [
@@ -355,7 +421,7 @@ const Projects = () => {
       live: '#'
     },
     {
-      id: 6,
+      id: 10,
       title: 'Cricket Tournament Management',
       description: 'Developing a sports management platform with match creation, player tracking, and digital records.',
       features: [
@@ -372,7 +438,7 @@ const Projects = () => {
       live: '#'
     },
     {
-      id: 7,
+      id: 11,
       title: 'Pune Startup Expo',
       description: 'Organized a startup expo with 800+ attendees, evaluating 500+ projects, shortlisting 30, and securing 20 funded projects.',
       features: [
@@ -390,7 +456,7 @@ const Projects = () => {
       live: '#'
     },
     {
-      id: 8,
+      id: 12,
       title: 'Management as a Service (MaaS)',
       description: 'Directed a 5-member team to build a task assignment system, improving productivity tracking by 30%.',
       features: [
@@ -408,7 +474,7 @@ const Projects = () => {
       live: '#'
     },
     {
-      id: 9,
+      id: 13,
       title: 'Performance Management Service (PMS)',
       description: 'Delivered PMS solution for Vetrina, integrating 50+ REST APIs to optimize KPI tracking and reporting.',
       features: [
@@ -425,7 +491,7 @@ const Projects = () => {
       live: '#'
     },
     {
-      id: 10,
+      id: 14,
       title: 'DiGi Campus',
       description: 'Contributing to full-stack development with React.js frontend and Django backend, supporting 8 user roles and 80+ modules.',
       features: [

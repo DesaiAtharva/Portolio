@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import styled from 'styled-components';
-import { FaCode, FaRocket, FaUsers, FaLightbulb, FaGraduationCap, FaAward } from 'react-icons/fa';
+import { FaCode, FaRocket, FaUsers, FaLightbulb, FaGraduationCap, FaAward, FaReact, FaPython } from 'react-icons/fa';
 
 const AboutContainer = styled.section`
   min-height: 100vh;
@@ -192,17 +192,17 @@ const About = () => {
 
 
   const skills = [
-    { name: 'React.js', level: 'Expert', icon: FaCode },
-    { name: 'JavaScript', level: 'Advanced', icon: FaCode },
-    { name: 'Django', level: 'Advanced', icon: FaCode },
-    { name: 'Node.js', level: 'Advanced', icon: FaCode },
-    { name: 'Next.js', level: 'Advanced', icon: FaRocket },
-    { name: 'Team Lead', level: 'Expert', icon: FaUsers },
+    { name: 'React.js', level: 'Expert', icon: FaReact },
+    { name: 'Django / FastAPI', level: 'Expert', icon: FaPython },
+    { name: 'RAG Pipelines', level: 'Expert', icon: FaRocket },
+    { name: 'Agentic AI / LLMs', level: 'Advanced', icon: FaCode },
+    { name: 'Next.js / Redux', level: 'Advanced', icon: FaReact },
+    { name: 'Team Leadership', level: 'Expert', icon: FaUsers },
   ];
 
   const stats = [
     { number: '10+', label: 'Projects Completed' },
-    { number: '1+', label: 'Years Experience' },
+    { number: '2+', label: 'Years Experience' },
     { number: '99.9%', label: 'Uptime Achieved' },
     { number: '50+', label: 'REST APIs Built' },
   ];
@@ -221,20 +221,20 @@ const About = () => {
             </SectionTitle>
             
             <SectionSubtitle variants={itemVariants}>
-              Passionate Fullstack Developer & Problem Solver
+              Full Stack + AI Engineer & System Architect
             </SectionSubtitle>
             
             <Description variants={itemVariants}>
-              I'm a <HighlightText>results-driven Fullstack Developer</HighlightText> with strong expertise in 
-              React.js, JavaScript (ES6+), Django, and modern web development practices. I have a proven track record 
-              of building scalable, maintainable applications with a focus on performance optimization, 
-              security, and clean architecture.
+              I'm a <HighlightText>results-driven Full Stack + AI Engineer</HighlightText> with 2 years of experience 
+              building production-grade applications across municipal/government and enterprise systems. 
+              Specialized in architecting intelligent RAG pipelines, Agentic AI architectures, real-time dashboards, 
+              and automated data processing pipelines with a strong focus on clean architecture, security, and performance.
             </Description>
             
             <Description variants={itemVariants}>
-              With experience in <HighlightText>Agile teams</HighlightText> and <HighlightText>open-source projects</HighlightText>, 
-              I'm passionate about continuous learning and delivering high-quality code. I've built <HighlightText>50+ REST APIs</HighlightText>, 
-              integrated <HighlightText>1000+ APIs</HighlightText>, and achieved <HighlightText>99.9% uptime</HighlightText> on production systems.
+              With extensive hands-on experience in <HighlightText>Agile environments</HighlightText> and <HighlightText>multi-department integrations</HighlightText>, 
+              I design systems that combine robust backends with responsive, highly polished user interfaces. I've built <HighlightText>50+ REST APIs</HighlightText>, 
+              integrated <HighlightText>1000+ APIs</HighlightText>, and maintained <HighlightText>99.9% uptime</HighlightText> on complex productions.
             </Description>
 
             <StatsGrid variants={itemVariants}>

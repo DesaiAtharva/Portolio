@@ -288,33 +288,33 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: 'The DetaTech Labs Pvt. Ltd',
-      position: 'Software Developer — React.js — Django — REST APIs',
+      company: 'The DataTech Labs Inc (TDTL)',
+      position: 'Software Developer (Frontend / Full Stack)',
       duration: 'August 2024 – Present',
-      location: 'Pune, India',
+      location: 'Thane / Pune, India',
       icon: FaBriefcase,
-      description: 'Spearheading frontend development using React.js, Redux, and REST APIs, improving registration efficiency by 20%.',
+      description: 'Building production-grade ERP dashboards, Agentic AI data pipelines, real-time voice Speech-to-Text emergency response systems, and HRMS platforms for government and enterprise clients.',
       achievements: [
-        'Built modular, reusable UI components, enhancing maintainability by 30%',
-        'Delivered complete frontend UI integration and partial backend development',
-        'Optimized API response handling with caching, reducing load times by 15%',
-        'Followed Agile methodology and Git-based CI/CD workflows'
+        'Centralized ERP Systems: Unifying ERP dashboards and data pipelines across 47+ municipal departments for Thane Municipal Corporation.',
+        'Agentic AI & OCR: Architecting intelligent RAG pipelines to extract and unify unstructured records, and integrated OCR-based digitization streams.',
+        'Emergency Systems: Engineering real-time disaster platforms featuring Google Speech-to-Text voice transcription and severity-based routing.',
+        'Enterprise Solutions: Engineered Supply Chain (Vetrina), HRMS, and Hostel systems, integrating 50+ secure JWT REST APIs.'
       ],
-      techStack: ['React.js', 'Redux', 'Django', 'REST APIs', 'Agile', 'Git']
+      techStack: ['React.js', 'Django', 'REST APIs', 'Agentic AI', 'OCR', 'Speech-to-Text', 'JWT', 'Agile']
     },
     {
       company: 'AccioJob',
       position: 'MERN Stack Developer',
-      duration: 'April 2023 – Feb 2024',
+      duration: 'April 2023 – February 2024',
       location: 'Pune, India',
       icon: FaBriefcase,
-      description: 'Earned certifications in HTML, CSS, JavaScript, and React.js. Built fully functional, responsive e-commerce site.',
+      description: 'Completed intensive hands-on professional training in full-stack development using the MERN stack, focusing on scalable frontend architectures, state management, and optimized API integrations.',
       achievements: [
-        'Earned certifications in HTML, CSS, JavaScript, and React.js',
-        'Built a fully functional, responsive e-commerce site using MERN stack',
-        'Developed skills in modern web development practices'
+        'E-Commerce Development: Built a full-featured, responsive e-commerce application with secure auth and cart state management.',
+        'Responsive Performance: Implemented optimized layouts with fluid components and advanced CSS in React.js to enhance rendering.',
+        'Core Architectures: Gained hands-on depth in API-driven integrations, state management, React hooks, and Redux architectures.'
       ],
-      techStack: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Node.js', 'MongoDB']
+      techStack: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Redux', 'JavaScript', 'HTML5', 'CSS3']
     }
   ];
 
